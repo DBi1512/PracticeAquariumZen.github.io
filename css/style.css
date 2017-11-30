@@ -1,0 +1,354 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+p {
+  font-weight: 500;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+}
+
+.heading {
+  background-color: white;
+}
+
+.header {
+  float: left;
+  font-family: Arial;
+  line-height: 1.8rem;
+  word-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  font-weight: 100;
+  padding: 1.2rem 6rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header a:hover {
+  opacity: 0.9;
+}
+
+ul {
+  float: right;
+  padding-right: 5rem;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 1.5rem;
+}
+
+li a:hover {
+  opacity: 0.6;
+}
+
+li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial;
+  font-size: 1.2rem;
+  word-spacing: 0.3em;
+  letter-spacing: 0.2em;
+  color: rgba(196, 196, 196, 0.9);
+  font-weight: 100;
+}
+
+/* 1st section */
+
+.mainCore {
+  background-image: url(../images/aquascape1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 32rem;
+  padding-bottom: 32rem;
+  color: white;
+  text-align: center;
+}
+
+.mainHead {
+  font-size: 9rem;
+  line-height: 9rem;
+  font-weight: 100;
+}
+
+.mainMiddle {
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  font-weight: 100;
+}
+
+.mainParagraph {
+  font-size: 2.1rem;
+  line-height: 3.1rem;
+}
+
+/* 2nd Section */
+
+.smallPicture {
+  text-align: center;
+}
+
+.twoFish {
+  max-width: 100%;
+  height: auto;
+  padding-top: 8rem;
+}
+
+.content {
+  text-align: center;
+}
+
+.sourceSeattle {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  text-align: center;
+  padding-bottom: 3rem;
+  font-weight: 100;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+a {
+  font-size: 16px;
+  color: #339ec6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8facb7;
+}
+
+.natureAquarium {
+  background-image: url(../images/natureAquarium.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.natureAquarium h1 {
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.smallPicture2 {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.smallPicture2 img {
+  width: 70rem;
+  height: auto;
+}
+
+.quote {
+  text-align: center;
+}
+
+.style1 {
+  border-top: 0.1px solid grey;
+  padding-top: 1rem;
+  width: 70%;
+}
+
+.quote h3 {
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.quote h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+
+.style2 {
+  border-bottom: 0.1px solid grey;
+  width: 45%;
+  margin-bottom: 10rem;
+}
+
+.facebook {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+.fa {
+  padding: 13px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: rgba(28, 28, 28, 0.9);
+  color: white;
+}
+
+.showroom {
+  background-image: url(../images/showroom.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.showroom h1 {
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: 100;
+}
+
+.extraPicture {
+  margin-top: 3rem;
+}
+
+.extraPicture1 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+.extraPicture2 {
+  margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.extraPicture3 {
+  width: 100%;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+.extraPicture4 {
+  width: 100%;
+  height: 50rem;
+}
+
+.extraPicture5 , .extraPicture6 {
+  padding-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.extraPicture7 {
+  padding-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.extraPicture8 {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+}
+
+.extraPicture9, .extraPicture10, .extraPicture11 {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
+}
+
+.extraPicture12, .extraPicture13 {
+  padding-top: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  display: block;
+  clear: both;
+  margin: 0;
+  background-color: #F5F5F5;
+  background-size: cover;
+  width: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+footer p {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+@media only screen and (max-width: 119.9rem) {
+
+}
+
+@media only screen and (max-width: 99.1rem) {
+  .mainHead {
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+  .mainMiddle {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 76.7rem) {
+  .mainHead {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+  .mainMiddle {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .header .head {
+    padding: 1rem 1rem;
+    font-size: 1.8rem;
+  }
+
+  .extraPicture .extra {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
